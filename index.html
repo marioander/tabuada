@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <style>
+        html {
+            font: bold 1em Arial;
+        }
+
+        body {
+            background-color: rgb(143, 232, 102);
+        }
+
+        header, footer {
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        main {
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.612);
+            font-size: 20px;
+        }
+
+        a {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <main>
+        <p><label for="numero">Número:</label> <input type="number" id="numero"> <input type="button" name="botão" value="Gerar Tabuada" onclick="gerar()"></p>
+            <select name="tabuada" id="itabuada" size="10" >
+                    <option id="opt">Digite um número acima</option>
+            </select>
+    </main>
+    <footer>
+        <p>© <a href="https://github.com/marioander" rel="external" target="_blank">Mário Ander</a></p>
+    </footer>
+    <script src="script-tabuada.js"></script>
+</body>
+</html>
